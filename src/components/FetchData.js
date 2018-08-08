@@ -23,7 +23,7 @@ class FetchData extends Component {
   render() {
     const movies = this.state.trendingMovies.map((movie) => {
       return (
-        <div>
+        <div className="Card">
           <p> {movie.title} </p>
           <em> {movie.rating} </em>
         </div>
